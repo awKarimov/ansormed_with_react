@@ -1,9 +1,11 @@
+import headerLogo from "./assets/logo.svg";
+
 export default function Header() {
   return (
     <header className="header">
       <div className="container header-content">
         <a className="logo" href="index.html">
-          <img className="logo" src="./public/logo.svg" alt="Ansormed" />
+          <img className="logo" src={headerLogo} alt="Ansormed" />
         </a>
         <nav className="header-links">
           <li>
