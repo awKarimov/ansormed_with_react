@@ -1,0 +1,327 @@
+:root {
+  --bg-color: #0eb4c1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 120%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.red-button {
+  display: inline-block;
+  color: white !important;
+  background-color: #de2e54;
+  border-radius: 8px;
+  padding: 10.8px 14.6px;
+  font-size: 13px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+.red-button:hover {
+  background-color: white;
+  color: #de2e54 !important;
+  border-color: #de2e54; /* faqat rang o‘zgaradi */
+}
+
+.red-button:active {
+  color: white !important;
+  background-color: rgb(222, 46, 84, 60%);
+}
+
+/* HEADER */
+
+.header {
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  margin: 24px 170px;
+  margin-bottom: 14px;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: -3.5px;
+  margin-left: 65px;
+  width: 147px;
+  height: 44px;
+}
+
+.header-links {
+  font-size: 11px;
+  margin-left: -42px;
+  margin-top: -6.8px;
+  display: flex;
+  gap: 25px;
+  margin-right: -113px;
+}
+
+.header-button {
+  margin-top: -9px;
+  letter-spacing: 1.6px;
+  font-size: 10px;
+  font-weight: 350;
+  margin-right: 130px;
+  border-radius: 8px;
+  padding: 8px 18px;
+  padding-left: 15px;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.header-link:hover {
+  color: #de2e54;
+}
+
+.header-link:active {
+  color: rgb(222, 46, 84, 60%);
+}
+
+/* MAIN */
+
+/* HERO */
+
+.hero {
+  background-color: #0eb4c1;
+  color: white;
+  height: 428px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 533px;
+}
+
+.hero-data {
+  padding-top: 93.4px;
+  padding-left: 259px;
+}
+
+.hero-title {
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: -0.4px;
+}
+
+.hero-text {
+  font-size: 14.3px;
+  line-height: 150%;
+  width: 350px;
+  margin-top: 15.2px;
+  margin-bottom: 29px;
+}
+
+.nd-button {
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  padding-right: 20.5px;
+}
+
+.nd-button:hover {
+  background-color: rgb(222, 46, 84, 80%) !important;
+  color: white !important;
+}
+
+.hero-img {
+  width: 342px;
+  height: 404px;
+  margin-top: 24px;
+  margin-right: 258px;
+}
+
+/* INFORMATIONS */
+
+.information-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 99px;
+  margin-bottom: 47px;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 17px;
+  line-height: 120%;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: -0.22px;
+  margin-top: 0;
+}
+
+.hijoma-text {
+  width: 464px;
+  letter-spacing: -0.22px;
+}
+
+.manual-teraphy {
+  width: 495px;
+  letter-spacing: -0.22px;
+}
+
+.cure-leech {
+  width: 480px;
+}
+
+.drug {
+  width: 495px;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  margin-left: 355px;
+  margin-right: 130px;
+  margin-bottom: 64px;
+}
+
+.info-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 24px;
+  margin-right: 50.4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.15) 0px 10px 10px -5px;
+}
+
+.rd-button {
+  display: flex;
+  justify-content: center;
+  margin-top: -18px;
+  letter-spacing: -0.3px;
+  font-weight: 300;
+}
+
+/* CTA */
+
+.cta {
+  background-color: #0eb4c1;
+  color: white;
+  width: 100%;
+  height: 203px;
+  margin-top: 96.6px;
+}
+
+.cta-title {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  padding-top: 53px;
+}
+
+.cta-way {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 36px;
+}
+
+.cta-link {
+  font-size: 12px;
+  color: white;
+  padding: 8px 17.9px;
+  border-radius: 8px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.cta-link:hover {
+  background-color: #de2e54;
+  border-color: #de2e54;
+  color: white;
+}
+
+.cta-link:active {
+  color: white;
+  background-color: rgb(222, 46, 84, 60%);
+  border: 2px solid rgb(222, 46, 84, 60%);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #222222;
+  width: 100%;
+  height: 79px;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-top: 24px;
+  margin-left: 100px;
+}
+
+.footer-logo {
+  width: 145px;
+  height: 50px;
+  margin-left: 160px;
+  margin-top: -10px;
+}
+
+.footer-links {
+  font-size: 12px;
+  display: flex;
+  gap: 25px;
+  margin-top: -15px;
+  margin-right: 258px;
+}
+
+.bold {
+  color: white;
+  letter-spacing: 1.3px;
+}
+
+.bold:hover {
+  color: #de2e54;
+}
+
+.bold:active {
+  color: rgba(255, 255, 255, 0.5);
+}
