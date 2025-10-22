@@ -1,7 +1,7 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+import Main from "./components/Main.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
