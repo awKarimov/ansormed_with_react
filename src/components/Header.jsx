@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header">
       <div className="container header-content">
         <a className="logo" href="index.html">
-          <img className="logo" src={headerLogo} alt="Ansormed" />
+          <img className="logo" src="./logo.svg" alt="Ansormed" />
         </a>
         <nav className="header-links">
           <li>

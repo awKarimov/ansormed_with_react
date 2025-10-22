@@ -17,7 +17,7 @@ export default function Hero() {
               <b className="">QABULGA YOZILISH</b>
             </a>
           </div>
-          <img className="hero-img" src="./public/hero-img.png" alt="" />
+          <img className="hero-img" src="./hero-img.png" alt="" />
         </div>
       </div>
     </section>

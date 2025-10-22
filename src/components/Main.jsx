@@ -8,7 +8,7 @@ export default function Main() {
 
         <div className="container">
           <div className="data">
-            <img className="info-img" src="./public/stImage.jpg" alt="Hijoma" />
+            <img className="info-img" src="./stImage.jpg" alt="Hijoma" />
             <div>
               <h3>Hijoma</h3>
               <p className="text hijoma-text">
@@ -22,11 +22,7 @@ export default function Main() {
           </div>
 
           <div className="data">
-            <img
-              className="info-img"
-              src="./public/ndImage.jpg"
-              alt="Masssaj"
-            />
+            <img className="info-img" src="./ndImage.jpg" alt="Masssaj" />
             <div>
               <h3>Manual terapiya</h3>
               <p className="text manual-teraphy">
@@ -41,7 +37,7 @@ export default function Main() {
           <div className="data">
             <img
               className="info-img"
-              src="./public/rdImage.jpg"
+              src="./rdImage.jpg"
               alt="Zuluk bilan davolash"
             />
             <div>
@@ -60,7 +56,7 @@ export default function Main() {
           <div className="data">
             <img
               className="info-img"
-              src="./public/honeyImg.jpg"
+              src="./honeyImg.jpg"
               alt="Asal yesang bo`lmaysan kasal"
             />
             <div>

@@ -6,7 +6,7 @@ export default function Footer() {
           <a href="index.html">
             <img
               className="footer-logo"
-              src="./public/footer-logo.svg"
+              src="./footer-logo.svg"
               alt="Ansormed"
             />
           </a>
